@@ -8,8 +8,6 @@
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
 
-;; ---------- BONUS ----------
-
 ;; colonne de 80 caracteres
 (setq-default fill-column 80)
 (setq auto-fill-mode 1)
@@ -37,8 +35,6 @@
 
 ;; permet d'inserer des tabs pour la norme
 (global-set-key (kbd "TAB") 'self-insert-command)
-
-;; ---------- PARTIE OBLIGATOIRE ----------
 
 ;; Indentation automatique
 (setq c-default-style "linux")
